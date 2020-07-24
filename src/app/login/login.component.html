@@ -1,0 +1,20 @@
+<div class="row justify-content-center mx-0">
+  <div class="col-md-3 col-6 pt-100">
+    <div class="text-center" > 
+      <form class="form-signin ">
+        <img class="mb-4" src="https://i.hizliresim.com/ADP3rX.png" alt="" width="60" height="60">
+        <h1 class="h3 mb-3 font-weight-normal mb-4">Please sign in</h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input name="email" [value]="email" (ngOnChange)="deneme($event)" id="inputEmail" class="form-control mb-3" placeholder="Email address" required="" autofocus="">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control mb-4" placeholder="Password" required="">
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+  </div>
+  </div>
+</div>
